@@ -23,8 +23,9 @@ class AddCardActivity : AppCompatActivity() {
         val save_btn = findViewById<ImageView>(R.id.icone_save)
 
         ShowingAnswers.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
+            val i = Intent(this, MainActivity::class.java)
+            startActivity(i)
+            overridePendingTransition(R.anim.left_out, R.anim.right_in)
         }
 
         val question = intent.getStringExtra("question")
@@ -61,6 +62,7 @@ class AddCardActivity : AppCompatActivity() {
                 data.putExtra("wrongAnswer2", wrongAnswer2)
                 setResult(Activity.RESULT_OK, data)
                 finish()
+
             }
         }
     }

@@ -48,4 +48,5 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation ("androidx.room:room-ktx:2.6.1")
     kapt ("androidx.room:room-compiler:2.6.1")
+    implementation ("nl.dionsegijn:konfetti-xml:2.0.4")
 }

@@ -8,6 +8,8 @@
     android:background="@color/white"
     tools:context=".MainActivity">
 
+
+
     <TextView
         android:id="@+id/flashcard_question"
         android:layout_width="match_parent"
@@ -16,6 +18,14 @@
         android:text=""
         android:background="@drawable/card_background"
         android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/miniteur"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="20sp" />
 
 
     <TextView
@@ -102,5 +112,10 @@
         android:layout_marginStart="191dp"
         android:layout_marginBottom="409dp"
         android:src="@drawable/iconmonstr_trash_can_lined" />
+
+    <nl.dionsegijn.konfetti.xml.KonfettiView
+        android:id="@+id/konfettiView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </RelativeLayout>
