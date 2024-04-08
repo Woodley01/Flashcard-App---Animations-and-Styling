@@ -7,7 +7,7 @@
 
 ### App Walk-though
 
-<img src="https://submissions.us-east-1.linodeobjects.com/mobile_app_design/7o_ZyJcc.gif" width=200><br>
+<img src="https://github.com/Woodley01/Flashcard-App---Animations-and-Styling/blob/master/video.gif" width=200><br>
 
 ## Required
 - [x] User sees a transition animation when going from the main screen to the add card screen.
